@@ -1,12 +1,25 @@
 body,html{
     min-height:100vh;
     max-height:100vh;
+    min-width:100vh;
+    overflow-x:hidden;
 }
 #header{
     min-height:15vh;
     height:15vh;
     background:rgba(0, 77, 64,0.7);
 }
+.topbar{
+    padding-top:3vh;
+    color:#fff;
+}
+.topbar ul,li{
+    display:inline;
+    padding-left:2vh;
+}
+.topbar a{
+    text-decorator:none;
+    color:#fff;}
 #section{
     min-height:70vh;
     height:70vh;
